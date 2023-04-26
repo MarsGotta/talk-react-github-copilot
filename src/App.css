@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 400px;
+  min-height: 350px;
+  padding: 24px;
+  background: var(--color-background);
+  border: 1px solid var(--color-primary);
+  border-radius: 6px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li input {
+  margin-right: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+}

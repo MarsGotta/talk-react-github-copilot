@@ -1,0 +1,69 @@
+/* add the google fonts family: open sans 300, 400, 500, 600, 700 and montserrat 300, 400, 500, 600, 700 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* add the global styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* add reset styles */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* add button reset styles */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* add link reset styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --color-primary: #2f1d49;
+  --color-secondary: #6750a4;
+  --color-background: #0f0a16;
+  --color-tertiary: #160e20;
+  --color-text: #ffffff;
+
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
